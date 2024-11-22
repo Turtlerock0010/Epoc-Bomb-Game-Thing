@@ -1,0 +1,33 @@
+epoc bomb game is a game made by me Turtlerock0010 in scratch.
+There were multiple versions of this steming with various levels
+of success.
+The most common issue of the versions is the inability to solve making
+functioning clones that act independently from each other. This problem
+could have been solved by earlier me if i knew OOP (Object Oriented Programming)
+to define the clones but i refused to learn.
+anyways this corrects the mistakes and I hope to fully recreate the game
+in python using pygame.
+
+to do list:
+finish bomb becoming a sprite (done)
+make player become sprite with movement (done)
+make walls into sprite(s) (done)
+make walls collidable (done)
+make consistent framework of bombs becoming clones (done)
+make space summon bombs (done)
+make target sprite(s) (done)
+make logical target (done)
+make shard sprite(s) (done)
+make logical shards (done)
+make explosion logic (done)
+make target impact logic (done)
+clean up code (done)
+bug swatt 1 (done)
+release beta version to github (done)
+make game progression structure
+make displayable variables
+bug swatt 2
+release alpha version to github
+get play testers to find bugs
+bug swatt 3
+Epoc Bomb Game Thing 1.0 release

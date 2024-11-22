@@ -1,0 +1,23 @@
+#random square orginal position (remove when done)
+    targets = Target(randomSquare[0], randomSquare[1], 25, 25)
+    all_sprites.add(targets)
+
+
+if key[game.K_u]:
+        for i in range(3):
+            topShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(topShard)
+            bottomShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(bottomShard)
+            leftShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(leftShard)
+            rightShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(rightShard)
+            topleftShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(topleftShard)
+            toprightShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(toprightShard)
+            bottomleftShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(bottomleftShard)
+            bottomrightShard = Shard(bombX[i], bombY[i], 25, 25)
+            all_sprites.add(bottomrightShard)
